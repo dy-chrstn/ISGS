@@ -8,7 +8,6 @@
     android:background="@color/blue"
     android:orientation="vertical">
 
-    <
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -37,14 +36,14 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:fontFamily="@font/rakkas"
         android:text="Inventory Report"
-        android:textStyle="bold"
-
         android:textColor="@color/white"
         android:textSize="25dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_marginTop="30dp"
@@ -224,4 +223,5 @@
         </androidx.cardview.widget.CardView>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
+
 </LinearLayout>
