@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ISGS</string>
-    <string name="item_label">Items</string>
+    <string name="app_name">DropDownMenu</string>
+    <string name="select">Select Item</string>
 </resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".FragmentFirst"
+    android:padding="15dp">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:background="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_svgrepo_com_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Category"
+        android:textColor="@color/light_yellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical">
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/light_yellow"
+            android:textColor="@color/light_yellow"
+            android:textSize="25sp"
+            android:src="@drawable/image_picture_972_svgrepo_com_4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/light_yellow"
+            android:textSize="15sp"
+            android:layout_marginStart="35dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/light_yellow"
+        android:backgroundTint="@color/light_yellow"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/light_yellow"
+        android:backgroundTint="@color/light_yellow"
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cost"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/light_yellow"
+        android:backgroundTint="@color/light_yellow"
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/light_yellow"
+        android:backgroundTint="@color/light_yellow"
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Barcode"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/light_yellow"
+        android:backgroundTint="@color/light_yellow"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Scan"
+        android:backgroundTint="@color/light_yellow"
+        android:textColor="@color/blue"
+        />
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Generate"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/light_yellow"
+            android:textColor="@color/blue"
+            android:layout_marginStart="20dp"
+           />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/light_yellow"
+        android:textColor="@color/blue"
+        android:layout_marginTop="30dp"
+
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
